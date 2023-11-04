@@ -1,9 +1,10 @@
 :root {
   --bg: #1B1B1F;
-  --accent: #4a8380;
-  --accent2: #3a3d3b;
-  --text: #00ffff;
+  --accent: #1fe9ff;
+  --accent2: #1ffff0;
+  --text: #1ffff0;
   --button-text: #ffffff;
+  --roundness: 3px;
 }
 
 /* canvas */
@@ -52,7 +53,7 @@ body {
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
-  border-radius: 12px;
+  border-radius: var(--roundness);
   background-color: var(--accent2); 
   color: var(--button-text); 
   border: 3px solid var(--accent);
@@ -78,7 +79,7 @@ summary {
   padding-left: 2.2rem;
   position: relative;
   cursor: pointer;
-  border-radius: 12px;
+  border-radius: var(--roundness);
   outline: none;
 }
 details {
@@ -86,7 +87,7 @@ details {
   box-sizing: border-box;
   margin-top: 5px;
   background: var(--accent2);
-  border-radius: 12px;
+  border-radius: var(--roundness);
   border: 3px solid var(--accent);
   outline: none;
 }
@@ -107,7 +108,7 @@ summary:before {
   transform: rotate(0);
   transform-origin: .2rem 50%;
   transition: .25s transform ease;
-  border-radius: 12px;
+  border-radius: var(--roundness);
   outline: none;
 }
 
@@ -115,7 +116,7 @@ summary:before {
   border-top: none;
   padding: 10px;
   border-top: none;
-  border-radius: 12px;
+  border-radius: var(--roundness);
   outline: none;
 }
 
