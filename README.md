@@ -19,14 +19,18 @@ Step 1. Download the .ino file and download libraries mentioned in specific rele
 Step 2. Use arduino studio to upload the code onto arduino
 Step 3. assemble the board
 
-Display:      Joystick:
-Gnd - Gnd     Gnd - Gnd
-Vcc - 3v3     Vcc - 5v
-Scl - a5      Vrx - a0
-Sda - a4      Vry - a1
-              Sw - d2
+Display:
+Gnd - Gnd
+Vcc - 3v3
+Scl - a5
+Sda - a4
 
-
+Joystick:
+Gnd - Gnd
+Vcc - 5v
+Vrx - a0
+Vry - a1
+Sw - d2
 
 
 
