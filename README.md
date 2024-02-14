@@ -1,3 +1,5 @@
+![Img](https://raw.githubusercontent.com/fluid-developer/fluid-developer.github.io/main/logos/Solver-logo.png)
+
 # Solver, Another device.
 An Official GitHub repository for OS and documentation
 
