@@ -1,1 +1,1 @@
-## Please, ignore this branch, go to fluid-developer.github.io/Flippit .
+## Please, ignore this branch, go to fluid-developer.github.io/solver .
